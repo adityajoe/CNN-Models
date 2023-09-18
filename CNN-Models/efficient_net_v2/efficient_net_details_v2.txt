@@ -1,0 +1,42 @@
+10 epoch. save 2 models. 
+validation_loss, accuracy metrics
+EPOCH 1:
+LOSS train 2.731092017889023 test 1.4918688535690308
+EPOCH 2:
+LOSS train 2.1569315902888775 test 0.8168274164199829
+EPOCH 3:
+LOSS train 1.7756573840975762 test 0.9035688638687134
+EPOCH 4:
+LOSS train 1.2295538760721683 test 1.1553336381912231
+EPOCH 5:
+LOSS train 1.4735418260097504 test 0.906542956829071
+EPOCH 6:
+LOSS train 1.1975856985896827 test 0.7472472786903381
+EPOCH 7:
+LOSS train 0.8600323505699634 test 0.4460202157497406
+EPOCH 8:
+LOSS train 0.50802136734128 test 0.7215509414672852
+EPOCH 9:
+LOSS train 0.7405538331717253 test 0.5776585936546326
+EPOCH 10:
+LOSS train 0.9461099479347468 test 0.5976623296737671
+
+Requirements
+1. Image should be RGB.(or 3 channel grayscale r==g==b)
+2. All images should be resized to (224, 224). 
+3. Normalization is not required. (Need to check if preferred)
+
+Input Parameters
+Pytorch Data Loader object
+every image and class label =  image tensor + label tensor 
+
+limitaions
+None. to find more
+
+Results: 
+model_5epochs : 100% accuracy for every class (previously shared dataset)
+model_10_epochs : 100% accuracy for every class (previously shared dataset)
+
+reference links
+
+
